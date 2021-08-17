@@ -84,7 +84,7 @@
   background-color: #2196f3;
   cursor: pointer;
 }
-
+/* Секция услуг */
 .main-services {
   font-weight: 700;
   font-size: 14px;
@@ -100,6 +100,7 @@
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+/* Чем занимаеться студия */
 .what-studio-makes {
   font-weight: 700;
   font-size: 36px;
@@ -108,7 +109,7 @@
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
-
+/* Команда */
 .team {
   background-color: #f5f4fa;
 }
@@ -136,6 +137,41 @@
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+/* Фильтр меню в портфолио */
+}
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+.button-filter:hover {
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
+}
+.button-filter:focus {
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
+}
+/* Галерея в портфолио */
+.gallery-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.gallery-list-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* Футер */
 .contacts {
   background-color: #2f303a;
 }
@@ -158,39 +194,6 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.button-filter {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--secondary-title-color);
-  cursor: pointer;
-  background-color: #f5f4fa;
-}
-.button-filter:hover {
-  background-color: var(--accent-color);
-  color: var(--main-title-color);
-}
-.button-filter:focus {
-  background-color: var(--accent-color);
-  color: var(--main-title-color);
-}
-
-.gallery-list-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--secondary-title-color);
-}
-.gallery-list-description {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-}
 
 .header-nav,
 .address,
