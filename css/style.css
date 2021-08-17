@@ -191,3 +191,26 @@
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
+.header-nav,
+.address,
+.hero,
+.hero-title,
+.hero-button,
+.services-item,
+.what-studio-makes,
+.list-what-studio-makes,
+.our-team,
+.list-team,
+.members-names,
+.members-position,
+.address-footer,
+.filter,
+.gallery,
+.gallery-list,
+.gallery-list-title,
+.gallery-list-description,
+.list {
+  margin: 0;
+  padding: 0;
+}
