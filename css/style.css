@@ -74,6 +74,10 @@
   text-transform: uppercase;
   color: var(--main-title-color);
   background-color: #2f303a;
+  width: 696px;
+}
+.hero {
+  padding: 200px 252px 280px 252px;
 }
 .hero-button {
   font-weight: 700;
@@ -83,6 +87,11 @@
   color: var(--main-title-color);
   background-color: #2196f3;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+}
+.button-order {
+  margin: 30px 252px 294px 252px;
 }
 /* Секция услуг */
 .main-services {
@@ -138,7 +147,7 @@
   color: var(--main-text-color);
 }
 /* Фильтр меню в портфолио */
-}
+
 .button-filter {
   font-weight: 500;
   font-size: 16px;
@@ -194,10 +203,11 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
 
 .header-nav,
 .address,
-.hero,
+.section,
 .hero-title,
 .hero-button,
 .services-item,
@@ -216,4 +226,29 @@
 .list {
   margin: 0;
   padding: 0;
+}
+.container {
+  width: 1200px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.header {
+  background-color: tomato;
+}
+.hero {
+  background-color: violet;
+}
+.services {
+  background-color: yellow;
+}
+.works {
+  background-color: green;
+}
+.team {
+  background-color: blue;
+}
+.contacts {
+  background-color: teal;
 }

@@ -14,11 +14,11 @@
   </head>
 
   <body> 
-    <div class="container">
-      
+    
+     
     <!-- Меню навигации -->
     <header class="header">
-      <nav class="header-navigation">
+      <nav class="container">
         <a class="header-logo link"  href=""> Web<span class="header-logo-st link" >Studio</span> 
         <ul class="header-nav list">
           <li class="header-nav-item"><a class="header-nav-link link current " href="./index.html">Студия</a></li>
@@ -35,10 +35,12 @@
           <li class="address-item"><a class="address-link link" href="tel:+380961111111">+380961111111</a></li>
         </ul>
       </nav>
+      
     </header>
 
     <!-- Герой -->
-    <main>
+    <main class="container"> 
+      <div class="section">
       <section class="hero">
         <h1 class="hero-title">
           Эффективные решения <br />
@@ -46,9 +48,9 @@
         </h1>
         <div class="button-order"><button class="hero-button" type="button">Заказать услугу</button></div> 
       </section>
-
+      </div>
       <!-- Секция услуг -->
-
+      <div class="section">
       <section class="services">
         <h2 hidden>Услуги</h2>
         <ul class="services-item list">
@@ -85,9 +87,9 @@
           </li>
         </ul>
       </section>
-
+      </div>
       <!-- Чем занимаеться студия -->
-
+      <div class="section">
       <section class="works">
         <h2 class="what-studio-makes">Чем мы занимаемся</h2>
         <ul class="list-what-studio-makes list">
@@ -117,9 +119,9 @@
           </li>
         </ul>
       </section>
-
+      </div>  
       <!-- Команда -->
-
+      <div class="section">
       <section class="team">
         <h2 class="our-team">Наша команда</h2>
         <ul class="list-team list">
@@ -169,9 +171,11 @@
           </li>
         </ul>
       </section>
+    </div>
     </main>
 
-    <footer>
+    <footer class="container">
+      <div class="section">
       <section class="contacts">
        <a class="logo link"  href=""> Web<span class="logo-studio-footer link" >Studio</span> 
       <ul class="address-footer list">
@@ -187,6 +191,7 @@
         <li><a class="address-link-footer link" href="tel:+380961111111">+380961111111</a></li>
      </ul>
     </section>
-    </footer>
-  </div></body>
+    </div>
+  </footer>
+  </body>
 </html>
