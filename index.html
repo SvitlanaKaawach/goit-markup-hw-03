@@ -19,14 +19,16 @@
     <!-- Меню навигации -->
     
     <header class="header">
-      <div class=" main-header container">
+      <div class=" container ">
+        <div class="header-container">
        <nav class="main-nav"> 
         <a class="header-logo link"  href=""> Web<span class="header-logo-st link" >Studio</span> 
         <ul class="header-nav list">
-          <li class="header-nav-item"><a class="header-nav-link link current " href="./index.html">Студия</a></li>
-          <li class="header-nav-item"><a class="header-nav-link link " href="./portfolio.html ">Портфолио</a></li>
-          <li class="header-nav-item"><a class="header-nav-link link " href="">Контакты</a></li>
-        </ul>
+          <li class="header-nav-item"><a class="header-nav-link link current" href="./index.html">Студия</a></li>
+          <li class="header-nav-item"><a class="header-nav-link link" href="./portfolio.html ">Портфолио</a></li>
+          <li class="header-nav-item"><a class="header-nav-link link" href="">Контакты</a></li>
+        </ul> 
+      </nav>
 
         <!--Ссылка на адрес електронной пошти-->
         <ul class="address  list">
@@ -36,27 +38,29 @@
           <!--Ссылка на телефонный номер-->
           <li class="address-item"><a class="address-link link" href="tel:+380961111111">+380961111111</a></li>
         </ul>
-      </nav> 
+      </div>
      </div>
     </header>
   
  
 
     <!-- Герой -->
-    <main class="container"> 
-      <div class="section">
-      <section class="hero">
+    <main>
+       <section class="section hero">
+      <div class="container">
+      
         <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <div class="button-order"><button class="hero-button" type="button">Заказать услугу</button></div> 
-      </section>
+        <button class="hero-button" type="button">Заказать услугу</button>
+      
       </div>
+    </section>
       <!-- Секция услуг -->
-      <div class="section">
-      <section class="services">
-        <h2 hidden>Услуги</h2>
+      <section class="section">
+      <div class="container">
+        <h2 class="hidden-title">Услуги</h2>
         <ul class="services-item list">
           <li class="services-list">
             <h3 class="main-services">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -90,13 +94,13 @@
             </p>
           </li>
         </ul>
-      </section>
-      </div>
+       </div>
+       </section>
       <!-- Чем занимаеться студия -->
-      <div class="section">
-      <section class="works">
-        <h2 class="what-studio-makes">Чем мы занимаемся</h2>
-        <ul class="list-what-studio-makes list">
+      <section class="section">
+      <div class="container">
+        <h2 class="works-title">Чем мы занимаемся</h2>
+        <ul class="works-list list">
           <li class="image-of-studio-duty">
             <img
               src="./img/img1.jpg"
@@ -122,11 +126,11 @@
             />
           </li>
         </ul>
-      </section>
-      </div>  
+      </div>
+      </section>  
       <!-- Команда -->
-      <div class="section">
-      <section class="team">
+      <section class="section team">
+      <div class="container">
         <h2 class="our-team">Наша команда</h2>
         <ul class="list-team list">
           <li class="team-image">
@@ -197,16 +201,15 @@
           </article>
           </li>
         </ul>
-      </section>
-    </div>
-    </div>
+      </div>
+    </section>
     </main>
 
-    <footer class="container">
-      <div class="footer-section">
-      <section class="contacts">
+    <footer class="footer">
+      <div class="container">
        <a class="logo link"  href=""> Web<span class="logo-studio-footer link" >Studio</span> 
-      <ul class="address-footer list">
+     <address> 
+       <ul class="address-footer list">
         <li class="footer-contacts"><a class="studio-location link"
           href="https://goo.gl/maps/8hY23HAekC6FVMTa9"
           target="_blank"
@@ -218,7 +221,7 @@
        
         <li class="footer-contacts"><a class="address-link-footer link" href="tel:+380961111111">+380961111111</a></li>
      </ul>
-    </section>
+    </address>
     </div>
   </footer>
   </body>

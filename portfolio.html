@@ -19,7 +19,8 @@
     <!-- Меню навигации -->
 
     <header class="header">
-      <div  class="main-header container">
+      <div  class="header-container container">
+      
       <nav class="main-nav  ">
         <a class="header-logo link"  href=""> Web<span class="header-logo-st link" >Studio</span> 
         <ul class="header-nav list">
@@ -28,7 +29,7 @@
           <li class="header-nav-item"><a class="header-nav-link link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <div class="container">
+      <div class="header-container container">
       <ul class="address list">
         <!--Ссылка на адрес електронной пошти-->
         <li class="address-item">
@@ -45,20 +46,23 @@
 
     <!-- Герой -->
     <main>
-      <div class="container">
       <section class="section">
+      <div class="container">
+      
         <!--Фильтр в герое-->
+        <h1 class="hidden-title">Основная информация</h1>
         <ul class="filter list">
-          <li class="filter-button-item "><button class="button-filter current all" type="button">Все</button></li> 
-          <li class="filter-button-item "><button class="button-filter web-sites" type="button">Веб-сайты</button></li>
-          <li class="filter-button-item "><button class="button-filter aplication" type="button">Приложения</button></li>
-          <li class="filter-button-item "><button class="button-filter design" type="button">Дизайн</button></li>
-          <li class="filter-button-item "><button class="button-filter marketing" type="button">Маркетинг</button></li>
+          <li class="filter-item "><button class="button-filter  all" type="button">Все</button></li> 
+          <li class="filter-item "><button class="button-filter web-sites" type="button">Веб-сайты</button></li>
+          <li class="filter-item "><button class="button-filter aplication" type="button">Приложения</button></li>
+          <li class="filter-item "><button class="button-filter design" type="button">Дизайн</button></li>
+          <li class="filter-item "><button class="button-filter marketing" type="button">Маркетинг</button></li>
         </ul>
         <!--Список функций сайта с картинками-->
         <ul class="gallery list">
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-1.jpg"
@@ -70,10 +74,12 @@
             <h2 class="gallery-list-title">Технокряк</h2>
             <p class="gallery-list-description">Веб-сайт</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
-            <article class="card">
+            <article class="card"> 
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-2.jpg"
@@ -88,10 +94,12 @@
 
             <p class="gallery-list-description">Дизайн</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-3.jpg"
@@ -105,10 +113,12 @@
             </h2>
             <p class="gallery-list-description">Приложение</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-4.jpg"
@@ -122,10 +132,12 @@
             </h2>
             <p class="gallery-list-description">Дизайн</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-5.jpg"
@@ -139,10 +151,12 @@
             </h2>
             <p class="gallery-list-description">Приложение</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-6.jpg"
@@ -156,10 +170,12 @@
             </h2>
             <p class="gallery-list-description">Веб-сайт</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-7.jpg"
@@ -173,10 +189,12 @@
             </h2>
             <p class="gallery-list-description">Дизайн</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-8.jpg"
@@ -190,10 +208,12 @@
             </h2>
             <p class="gallery-list-description">Маркетинг</p>
           </div>
+          </a>
         </article>
       </li>
           <li class="gallery-list">
             <article class="card">
+              <a href="">
               <div class="card-thumb">
             <img
               src="./img/Portfolio-img/img-9.jpg"
@@ -207,18 +227,20 @@
             </h2>
             <p class="gallery-list-description">Приложение</p>
           </div>
+          </a>
         </article>
       </li>
         </ul>
-      </section>
+      
     </div>
+  </section>
     </main>
-    <footer class="container">
-      <div class="footer-section">
-      <section class="contacts">
-        <h2 hidden>Наши контакты</h2>
+    <footer class="footer">
+      <div class="container">
+       <h2 class="hidden-title">Наши контакты</h2>
         <a class="logo link" href=""> Web<span class="logo-studio-footer">Studio</span> </a>
-        <ul  class="address-footer list" >      
+       <address> 
+         <ul  class="address-footer list" >      
           <li class="footer-contacts"><a class="studio-location link"
             href="https://goo.gl/maps/Y9wyzisQfnfLE8UF7"
             target="_blank"
@@ -229,7 +251,7 @@
 
          <li class="footer-contacts"><a class="address-link-footer link" href="tel:+380961111111">+380961111111</a></ul></li> 
         </ul>
-      </section>
+      </address>
       </div>
     </footer>
     </body>
