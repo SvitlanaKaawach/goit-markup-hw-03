@@ -22,6 +22,7 @@ h6 {
   margin-bottom: 0;
 }
 ul {
+  list-style: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -30,7 +31,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0px auto;
 }
 .container {
   width: 1200px;
@@ -101,10 +101,8 @@ img {
 .header-logo-st {
   color: #000000;
 }
-/* List-link-decoration */
-.list {
-  list-style: none;
-}
+/* link-decoration */
+
 .link {
   text-decoration: none;
 }
@@ -180,7 +178,11 @@ img {
 
 /* Services-section */
 .hidden-title {
-  visibility: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .services-item {
@@ -211,6 +213,9 @@ img {
 }
 
 /* What-studio-makes */
+.work-section {
+  padding-top: 0px;
+}
 .works-title {
   margin-bottom: 50px;
 
@@ -233,6 +238,7 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
   align-items: center;
+  background-color: #ffffff;
 }
 /* Team */
 .team {
@@ -378,6 +384,9 @@ img {
 
 .card-content {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 a {
@@ -418,6 +427,7 @@ a {
 /* Address */
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 .studio-location {
@@ -433,7 +443,6 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 .address-footer {
-  margin-top: 20px;
 }
 
 .hero {
